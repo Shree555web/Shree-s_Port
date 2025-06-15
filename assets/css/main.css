@@ -1,0 +1,252 @@
+
+/* common */
+
+        body{
+           background-color:  rgb(245, 240, 205);
+        }
+        
+        .logo{
+            height: 20px;
+
+        }
+        .l {
+            height: 100px;
+        }
+
+        .header{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(54, 116, 181);
+        }
+    
+        nav ul{
+            display: flex;
+            gap: 25px;       
+            justify-self: center; 
+
+        }    
+        .ab{
+            color: black; 
+            text-decoration: none;
+            
+
+        }
+        .ab:hover{
+            color: red;
+            text-decoration: underline;
+            margin-bottom: 5px;
+            size: 20px;
+            
+
+        }
+        .container{
+            width: 100%;
+            color: black;
+            background-color: rgb(250, 218, 122);
+
+        }
+        .social ,.cr,.co{ 
+                
+            justify-self: center;
+            
+        }
+        .social a{
+            font-size: 25px;
+            color: honeydew;
+            
+            margin-left: 10px;
+        }
+        .social a:hover{
+            color: rgb(0, 255, 170);
+            font-size: large;
+            
+        }
+        .cr a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+        }
+
+
+
+        /* contact */
+        
+  .con{
+    height: 700px;
+    width: 500px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: #8e7d7d solid;
+    
+  }
+  
+  .con h1{
+    color: rgb(0, 0, 255);
+    justify-self: center;
+  }
+  .input,label ,.con .btn{
+    margin-left: 30px;
+    margin-top: 20px
+  }
+  .input{
+    
+      width: 80%;
+      padding: 12px 40px;
+      border: none;
+      border-radius: 25px;
+      background: #a09e9e;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      color: #8e7d7d;
+      font-family: sans-serif;
+      border-bottom: 1px dotted gray;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  /* home */
+
+
+        .cardme{
+            height: 500px;
+            width: 650px;
+            background-color: aliceblue;
+            margin: auto;
+            margin-top:50px;
+            margin-bottom: 50px;
+            border-radius: 40px;
+            border: gray dotted 2px;
+            display: flex;
+        }
+        .clme ,.crinfo{
+            width: 50%;
+
+
+        }
+        .clme{
+            background-color: coral;
+            border-top-left-radius:40px ;
+            border-bottom-left-radius: 40px;
+        }
+        .clme img {
+           margin-top: 50px;
+           margin-left: 85px;
+        }
+
+         @font-face {
+         font-family: 'Cust';
+         src: url('BebasNeue-Regular.ttf') format('truetype');
+        }
+
+        .name {
+            text-align: center;
+            font-family: "cust";
+            letter-spacing: 2px;
+            margin-top: 30px;
+            
+            
+        }
+        .info{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            margin-top: 60px;
+            text-align: justify; 
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .h{
+            text-align: center;
+            color: rgb(255, 183, 0);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+
+
+        /* resume */
+
+
+         .resu {
+        width: 100%;
+
+      }
+      
+      .re{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 70%;
+        border-radius: 30px;
+      }
+
+
+
+
+      /* portfolio */
+
+
+
+
+      .port{
+        width: 100%;
+        text-align: center;
+      }
+      .Pcard1,.Pcard2,.Pcard3,.Pcard4{
+        width: 600px;
+        height: 400px;
+        background-size: cover;
+        margin: auto;
+        margin-bottom: 35px;
+        border-radius: 40px;
+      }
+      .Pcard1
+    {
+      background-image: url(assets/img/figma.jpg);
+      
+    }
+    .Pcard2{
+      background-image: url(assets/img/Mic.jpg);
+    }
+    .Pcard3{
+      background-image: url(assets/img/EES.jpg);
+
+    }
+    .Pcard4{
+      background-image: url(assets/img/java.jpg);
+    }
+      .pinfo{
+        width: 100%;
+        height: 100%;
+        background: rgb(3, 3, 3);
+        opacity: 0.7;
+        margin: auto;
+        border-radius: 40px;
+      }
+      .pinfo h1,.pinfo p{
+        color: white;
+        padding: 40px;
+      }
+      .btn{
+         padding: 10px 20px;
+         background-color: aqua;
+         border-radius: 20px;
+         
+
+      }
+      .btn:hover{
+        scale: 1.2;
+        background-color: aliceblue;
+        transition: all 1s;
+      }
+
+       
+
+    
+
+
+
+
+
+
+
+    

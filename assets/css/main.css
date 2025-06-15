@@ -201,18 +201,18 @@
       }
       .Pcard1
     {
-      background-image: url(assets/img/figma.jpg);
+      background-image: url(img/figma.jpg);
       
     }
     .Pcard2{
-      background-image: url(assets/img/Mic.jpg);
+      background-image: url(img/Mic.jpg);
     }
     .Pcard3{
-      background-image: url(assets/img/EES.jpg);
+      background-image: url(img/EES.jpg);
 
     }
     .Pcard4{
-      background-image: url(assets/img/java.jpg);
+      background-image: url(img/java.jpg);
     }
       .pinfo{
         width: 100%;

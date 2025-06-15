@@ -11,6 +11,8 @@
         }
         .l {
             height: 100px;
+            border-radius: 50px;
+            margin-left: 30px;
         }
 
         .header{
